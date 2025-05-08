@@ -23,8 +23,8 @@ export default function Home() {
 
       {/* Content */}
       <div className="z-10 flex flex-col justify-center mt-auto mb-auto px-4 md:px-16 lg:px-32 xl:px-64 h-full">
-        <div className="text-gray-400 tracking-widest text-sm mb-16">
-          H404GLITCH
+        <div className="text-gray-400 tracking-widest text-2xl mb-10">
+          404GLITCH
         </div>
 
         <div
@@ -42,9 +42,29 @@ export default function Home() {
           <p>Those who comply… evolve.</p>
         </div>
 
-        <img src="/tiktok.png" alt="" className="w-6 h-6" />
-        <img src="/instagram.png" alt="" className="w-6 h-6" />
-        <img src="/twitter.png" alt="" className="w-6 h-6" />
+        <div className="flex gap-4 mt-16">
+          <a
+            href="mailto:404@404glitch.xyz"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/mail.png" alt="" className="w-8 h-8" />
+          </a>
+          <a
+            href="https://app.virtuals.io/geneses/1004"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/internet.png" alt="" className="w-8 h-8" />
+          </a>
+          <a
+            href="https://x.com/404glitch_"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/twitter.png" alt="" className="w-8 h-8" />
+          </a>
+        </div>
       </div>
     </main>
   );
